@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: rgb(237, 232, 232);
+            background: url('') no-repeat center center fixed;
+            background-size: cover;  
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #00aced;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: aqua; text-decoration: underline;">Samridh Singh </h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section id="about">
+        <h2 style="color: aqua; text-decoration: underline;">About Me</h2>
+        <p>Hello! I'm Samridh, a passionate web developer with a keen interest in crafting innovative and user-friendly designs. My mission is to merge technology with creativity to build impactful solutions.</p>
+    </section>
+
+    <section id="skills">
+        <h2 style="color: aqua; text-decoration: underline;">Skills</h2>
+        <div class="skills">
+            <div class="skill" style="text-decoration: underline; color:aqua">HTML</div>
+            <div class="skill" style="text-decoration: underline; color: aqua;">JavaScript</div>
+            <div class="skill" style="text-decoration: underline; color: aqua;">CSS</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 style="color: aqua; text-decoration: underline;">Contact</h2>
+        <p>If you'd like to connect, feel free to reach out on LinkedIn!</p>
+        <footer>
+            <a href="https://www.linkedin.com/posts/samridh-singh-a89bba327_webdeveloper-portfolio-html-activity-7274374418057904128-7uK6?utm_source=share&utm_medium=member_desktop" target="_blank" style="text-decoration: underline;">Visit My LinkedIn</a>
+        </footer>
+    </section>
+</body>
+</html>
